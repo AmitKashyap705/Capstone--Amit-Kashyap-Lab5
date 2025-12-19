@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learnify</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+    body{background:#f9fbfd;color:#222}
+    a{text-decoration:none;color:inherit}header{background:#fff;padding:15px 60px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.logo{font-weight:700;font-size:22px;color:#2563eb}
+.search{width:40%;padding:10px 15px;border-radius:25px;border:1px solid #ddd}
+.nav-btns button{margin-left:10px;padding:8px 18px;border-radius:20px;border:none;cursor:pointer}
+.login{background:#fff;border:1px solid #2563eb;color:#2563eb}
+.signup{background:#2563eb;color:#fff}
+
+.hero{background:linear-gradient(180deg,#eef4ff,#fff);text-align:center;padding:80px 20px}
+.hero h1{font-size:40px;margin-bottom:15px}
+.hero p{color:#555;margin-bottom:25px}
+.hero input{padding:12px 18px;border-radius:25px;border:1px solid #ccc;width:260px}
+.hero button{padding:12px 22px;border-radius:25px;border:none;background:#2563eb;color:#fff;margin-left:10px}
+
+section{padding:60px}
+h2{text-align:center;margin-bottom:40px}
+
+.categories,.courses,.instructors,.testimonials,.articles{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px}
+.card{background:#fff;border-radius:12px;padding:20px;text-align:center;box-shadow:0 4px 12px rgba(0,0,0,.05)}
+.card img{width:100%;border-radius:10px}
+.price{color:#2563eb;font-weight:600;margin-top:5px}
+
+.instructors img{width:70px;height:70px;border-radius:50%;margin-bottom:10px}
+
+.faq{max-width:800px;margin:auto}
+.faq div{background:#fff;margin-bottom:10px;padding:15px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+
+.newsletter{text-align:center;background:#eef4ff;padding:60px}
+.newsletter input{padding:12px;border-radius:25px;border:1px solid #ccc;width:250px}
+.newsletter button{padding:12px 22px;border-radius:25px;border:none;background:#2563eb;color:#fff;margin-left:10px}
+
+footer{background:#111;color:#ccc;padding:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:30px}
+footer h4{color:#fff;margin-bottom:10px}
+footer p,footer a{font-size:14px}
+
+  </style>
+</head>
+<body><header>
+  <div class="logo">Learnify</div>
+  <input class="search" placeholder="Search courses, topics..." />
+  <div class="nav-btns">
+    <button class="login">Login</button>
+    <button class="signup">Sign Up</button>
+  </div>
+</header><div class="hero">
+  <h1>Unlock Your Potential with Online Learning</h1>
+  <p>Join thousands of learners and access top-rated courses from expert instructors.</p>
+  <input placeholder="What do you want to learn?" />
+  <button>Find Courses</button>
+</div><section>
+  <h2>Popular Categories</h2>
+  <div class="categories">
+    <div class="card">Development</div>
+    <div class="card">Design</div>
+    <div class="card">Business</div>
+    <div class="card">Languages</div>
+    <div class="card">Academics</div>
+    <div class="card">Music</div>
+    <div class="card">Lifestyle</div>
+    <div class="card">Science</div>
+  </div>
+</section><section>
+  <h2>Featured Courses</h2>
+  <div class="courses">
+    <div class="card"><img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"><h4>Modern Web Development</h4><p class="price">$49</p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2"><h4>Graphic Design Masterclass</h4><p class="price">$39</p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f"><h4>Business Analytics</h4><p class="price">Free</p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"><h4>Spanish for Beginners</h4><p class="price">$29</p></div>
+  </div>
+</section><section>
+  <h2>Meet Our Instructors</h2>
+  <div class="instructors">
+    <div class="card"><img src="https://randomuser.me/api/portraits/men/32.jpg"><h4>John Carter</h4><p>Web Developer</p></div>
+    <div class="card"><img src="https://randomuser.me/api/portraits/women/44.jpg"><h4>Lisa Wong</h4><p>Graphic Designer</p></div>
+    <div class="card"><img src="https://randomuser.me/api/portraits/men/65.jpg"><h4>Ahmed El‑Sayed</h4><p>Business Analyst</p></div>
+    <div class="card"><img src="https://randomuser.me/api/portraits/women/68.jpg"><h4>Maria Garcia</h4><p>Language Coach</p></div>
+  </div>
+</section><section>
+  <h2>What Our Students Say</h2>
+  <div class="testimonials">
+    <div class="card">"The courses are well structured and easy to follow."<br><br><strong>Anna Smith</strong></div>
+    <div class="card">"Great instructors and huge variety of topics."<br><br><strong>Mark Lee</strong></div>
+  </div>
+</section><section>
+  <h2>Latest Articles</h2>
+  <div class="articles">
+    <div class="card"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"><h4>5 Tips to Boost Online Learning</h4></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa"><h4>Top In‑Demand Skills 2024</h4></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1515165562835-c4c9e6a41c0b"><h4>How to Choose the Right Course</h4></div>
+  </div>
+</section><section class="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div>How do I enroll in a course?</div>
+  <div>Are there any free courses?</div>
+  <div>Do I get a certificate?</div>
+  <div>Can I access courses on mobile?</div>
+</section><div class="newsletter">
+  <h2>Subscribe to Our Newsletter</h2>
+  <input placeholder="Your email address" />
+  <button>Subscribe</button>
+</div><footer>
+  <div>
+    <h4>Learnify</h4>
+    <p>Empowering learners worldwide.</p>
+  </div>
+  <div>
+    <h4>Links</h4>
+    <p>Courses<br>Instructors<br>Blog<br>FAQ</p>
+  </div>
+  <div>
+    <h4>Contact</h4>
+    <p>Email: support@learnify.com<br>Phone: +1 234 567 890</p>
+  </div>
+</footer></body>
+</html>
